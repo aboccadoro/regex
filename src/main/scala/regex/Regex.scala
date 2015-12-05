@@ -11,7 +11,7 @@ object EA06Regex {
 
     val date: Regex = """^[0-9]{2}/[0-9]{2}/[0-9]{4}$""".r
 
-    val advDate: Regex = """^$""".r
+    val advDate: Regex = """^(0[1-9]|[1-2][0-9]|3[0-1])/(0[1-9]|1[0-2])/[0-9]{3}[1-9]$""".r
 
     val name: Regex = """^$""".r
 }
